@@ -18,7 +18,7 @@ Config Cisco phone  7941 and 7942 XML file
 Change the parts between ** according to the guide below
 
 ```mermaid
-graph LR
+graph 
 A[**Your_NTP_Server_IP_Adress**] -- change to --> B[your server IP Address, for Ex: 192.168.1.100]
 A[**Your_Server_IP_Adress**] -- change to --> B[your server IP Address, for Ex: 192.168.1.100]
 A[**Phone_Label**] -- change to --> B[your Company name, for Ex: ParDevOPs]

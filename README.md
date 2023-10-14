@@ -15,15 +15,16 @@ Config Cisco phone  7941 and 7942 XML file
 > ~: cp SEP(Cisco_IP_Phone_.7941_MAC).cnf /tftpboot/
 > ~: cp SEP(Cisco_IP_Phone_.7942_MAC).cnf /tftpboot/
 > ~: vi  **SEP(Cisco_IP_Phone_.7941_MAC).cnf** or **SEP(Cisco_IP_Phone_.7942_MAC).cnf**
-Change the parts between ** according to the guide below
+
+##Change the parts between ** according to the guide below
 
 ```mermaid
 graph 
-A[**Your_NTP_Server_IP_Adress**] -- change to --> B[your server IP Address, for Ex: 192.168.1.100]
-A[**Your_Server_IP_Adress**] -- change to --> B[your server IP Address, for Ex: 192.168.1.100]
-A[**Phone_Label**] -- change to --> B[your Company name, for Ex: ParDevOPs]
-A[****Extention_ID****] -- change to --> B[your Extention id, for Ex: 101]
-A[****Extention_Pass****] -- change to --> B[your Extention Pass, for Ex: admin123]
+A[**Your_NTP_Server_IP_Adress**] -- change to --> B[your server IP Address, for Ex: 192.168.1.100];
+A[**Your_Server_IP_Adress**] -- change to --> B[your server IP Address, for Ex: 192.168.1.100];
+A[**Phone_Label**] -- change to --> B[your Company name, for Ex: ParDevOPs];
+A[****Extention_ID****] -- change to --> B[your Extention id, for Ex: 101];
+A[****Extention_Pass****] -- change to --> B[your Extention Pass, for Ex: admin123];
 
 ```
 
